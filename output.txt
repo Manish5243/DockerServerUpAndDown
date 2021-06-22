@@ -1,0 +1,457 @@
+Attaching to dockervalidation_selenium-hub_1, dockervalidation_firefox_1, dockervalidation_chrome_1, dockervalidation_edge_1
+[35mselenium-hub_1  |[0m 2021-06-21 15:57:10,438 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+[35mselenium-hub_1  |[0m 2021-06-21 15:57:10,448 INFO supervisord started with pid 8
+[35mselenium-hub_1  |[0m 2021-06-21 15:57:11,491 INFO spawned: 'selenium-grid-hub' with pid 10
+[35mselenium-hub_1  |[0m 2021-06-21 15:57:12,501 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2021-06-21 15:57:16,300 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2021-06-21 15:57:16,316 INFO supervisord started with pid 9
+[35mselenium-hub_1  |[0m 15:57:16.346 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[35mselenium-hub_1  |[0m 15:57:16.457 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[36mchrome_1        |[0m 2021-06-21 15:57:17,223 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36mchrome_1        |[0m 2021-06-21 15:57:17,245 INFO supervisord started with pid 11
+[33medge_1          |[0m 2021-06-21 15:57:17,261 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33medge_1          |[0m 2021-06-21 15:57:17,279 INFO supervisord started with pid 10
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,339 INFO spawned: 'xvfb' with pid 11
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,375 INFO spawned: 'vnc' with pid 12
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,397 INFO spawned: 'novnc' with pid 14
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,467 INFO spawned: 'selenium-node' with pid 18
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,686 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,687 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,687 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2021-06-21 15:57:17,688 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mselenium-hub_1  |[0m 15:57:17.926 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.31.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.31.0.2:4443]
+[36mchrome_1        |[0m 2021-06-21 15:57:18,251 INFO spawned: 'xvfb' with pid 13
+[33medge_1          |[0m 2021-06-21 15:57:18,286 INFO spawned: 'xvfb' with pid 12
+[33medge_1          |[0m 2021-06-21 15:57:18,301 INFO spawned: 'vnc' with pid 13
+[33medge_1          |[0m 2021-06-21 15:57:18,306 INFO spawned: 'novnc' with pid 14
+[36mchrome_1        |[0m 2021-06-21 15:57:18,297 INFO spawned: 'vnc' with pid 14
+[36mchrome_1        |[0m 2021-06-21 15:57:18,319 INFO spawned: 'novnc' with pid 15
+[33medge_1          |[0m 2021-06-21 15:57:18,336 INFO spawned: 'selenium-node' with pid 15
+[36mchrome_1        |[0m 2021-06-21 15:57:18,392 INFO spawned: 'selenium-node' with pid 18
+[32mfirefox_1       |[0m Configuring server...
+[32mfirefox_1       |[0m Setting up SE_NODE_HOST...
+[32mfirefox_1       |[0m Setting up SE_NODE_PORT...
+[32mfirefox_1       |[0m Setting up SE_NODE_GRID_URL...
+[36mchrome_1        |[0m 2021-06-21 15:57:18,652 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-06-21 15:57:18,654 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-06-21 15:57:18,655 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-06-21 15:57:18,656 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33medge_1          |[0m 2021-06-21 15:57:18,684 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33medge_1          |[0m 2021-06-21 15:57:18,700 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33medge_1          |[0m 2021-06-21 15:57:18,701 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33medge_1          |[0m 2021-06-21 15:57:18,701 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m Selenium Grid Node configuration: 
+[32mfirefox_1       |[0m [events]
+[32mfirefox_1       |[0m publish = "tcp://selenium-hub:4442"
+[32mfirefox_1       |[0m subscribe = "tcp://selenium-hub:4443"
+[32mfirefox_1       |[0m 
+[32mfirefox_1       |[0m [node]
+[32mfirefox_1       |[0m session-timeout = "300"
+[32mfirefox_1       |[0m override-max-sessions = false
+[32mfirefox_1       |[0m detect-drivers = false
+[32mfirefox_1       |[0m max-sessions = 1
+[32mfirefox_1       |[0m 
+[32mfirefox_1       |[0m [[node.driver-configuration]]
+[32mfirefox_1       |[0m name = "firefox"
+[32mfirefox_1       |[0m stereotype = '{"browserName": "firefox", "browserVersion": "89.0", "platformName": "Linux"}'
+[32mfirefox_1       |[0m max-sessions = 1
+[32mfirefox_1       |[0m 
+[32mfirefox_1       |[0m Starting Selenium Grid Node...
+[35mselenium-hub_1  |[0m 15:57:19.188 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.31.0.2:4442 and tcp://172.31.0.2:4443
+[35mselenium-hub_1  |[0m 15:57:19.549 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1        |[0m Configuring server...
+[36mchrome_1        |[0m Setting up SE_NODE_HOST...
+[36mchrome_1        |[0m Setting up SE_NODE_PORT...
+[36mchrome_1        |[0m Setting up SE_NODE_GRID_URL...
+[33medge_1          |[0m Configuring server...
+[33medge_1          |[0m Setting up SE_NODE_HOST...
+[33medge_1          |[0m Setting up SE_NODE_PORT...
+[33medge_1          |[0m Setting up SE_NODE_GRID_URL...
+[35mselenium-hub_1  |[0m 15:57:20.648 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[36mchrome_1        |[0m Selenium Grid Node configuration: 
+[36mchrome_1        |[0m [events]
+[36mchrome_1        |[0m publish = "tcp://selenium-hub:4442"
+[36mchrome_1        |[0m subscribe = "tcp://selenium-hub:4443"
+[36mchrome_1        |[0m 
+[36mchrome_1        |[0m [node]
+[36mchrome_1        |[0m session-timeout = "300"
+[36mchrome_1        |[0m override-max-sessions = false
+[36mchrome_1        |[0m detect-drivers = false
+[36mchrome_1        |[0m max-sessions = 1
+[36mchrome_1        |[0m 
+[36mchrome_1        |[0m [[node.driver-configuration]]
+[36mchrome_1        |[0m name = "chrome"
+[36mchrome_1        |[0m stereotype = '{"browserName": "chrome", "browserVersion": "91.0", "platformName": "Linux"}'
+[36mchrome_1        |[0m max-sessions = 1
+[36mchrome_1        |[0m 
+[36mchrome_1        |[0m Starting Selenium Grid Node...
+[33medge_1          |[0m Selenium Grid Node configuration: 
+[33medge_1          |[0m [events]
+[33medge_1          |[0m publish = "tcp://selenium-hub:4442"
+[33medge_1          |[0m subscribe = "tcp://selenium-hub:4443"
+[33medge_1          |[0m 
+[33medge_1          |[0m [node]
+[33medge_1          |[0m session-timeout = "300"
+[33medge_1          |[0m override-max-sessions = false
+[33medge_1          |[0m detect-drivers = false
+[33medge_1          |[0m max-sessions = 1
+[33medge_1          |[0m 
+[33medge_1          |[0m [[node.driver-configuration]]
+[33medge_1          |[0m name = "MicrosoftEdge"
+[33medge_1          |[0m stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "92.0", "platformName": "Linux"}'
+[33medge_1          |[0m max-sessions = 1
+[33medge_1          |[0m 
+[33medge_1          |[0m Starting Selenium Grid Node...
+[32mfirefox_1       |[0m 15:57:25.606 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[32mfirefox_1       |[0m 15:57:25.656 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[32mfirefox_1       |[0m 15:57:27.245 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36mchrome_1        |[0m 15:57:27.246 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[36mchrome_1        |[0m 15:57:27.284 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[33medge_1          |[0m 15:57:27.934 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[33medge_1          |[0m 15:57:27.999 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[32mfirefox_1       |[0m 15:57:28.348 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32mfirefox_1       |[0m 15:57:29.423 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[36mchrome_1        |[0m 15:57:29.661 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[33medge_1          |[0m 15:57:29.989 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36mchrome_1        |[0m 15:57:30.464 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[33medge_1          |[0m 15:57:30.940 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1        |[0m 15:57:31.497 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[35mselenium-hub_1  |[0m 15:57:31.709 INFO [Hub.execute] - Started Selenium Hub 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.2:4444
+[32mfirefox_1       |[0m 15:57:31.710 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.3:5555
+[32mfirefox_1       |[0m 15:57:31.874 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[33medge_1          |[0m 15:57:31.969 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[32mfirefox_1       |[0m 15:57:32.237 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "89.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[32mfirefox_1       |[0m 15:57:32.351 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[36mchrome_1        |[0m 15:57:33.138 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.5:5555
+[33medge_1          |[0m 15:57:33.408 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.4:5555
+[36mchrome_1        |[0m 15:57:33.405 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[33medge_1          |[0m 15:57:33.685 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[36mchrome_1        |[0m 15:57:33.871 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "91.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+[36mchrome_1        |[0m 15:57:33.942 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[33medge_1          |[0m 15:57:34.289 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserVersion": "92.0","browserName": "MicrosoftEdge","platformName": "Linux","se:vncEnabled": true} 1 times
+[33medge_1          |[0m 15:57:34.362 INFO [Node.<init>] - Binding additional locator mechanisms: id, name
+[32mfirefox_1       |[0m 15:57:34.558 INFO [NodeServer$1.start] - Starting registration process for node id da9f4caf-bca3-4642-8230-8ff68af711b5
+[32mfirefox_1       |[0m 15:57:34.591 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.3:5555
+[32mfirefox_1       |[0m 15:57:34.723 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[35mselenium-hub_1  |[0m 15:57:35.169 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[36mchrome_1        |[0m 15:57:35.811 INFO [NodeServer$1.start] - Starting registration process for node id 1ebad62b-9199-491b-a506-55b6363a5b89
+[36mchrome_1        |[0m 15:57:35.822 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.5:5555
+[36mchrome_1        |[0m 15:57:35.927 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[33medge_1          |[0m 15:57:36.166 INFO [NodeServer$1.start] - Starting registration process for node id 9fb7eeee-1db5-4eed-9a25-c76aae965a0d
+[33medge_1          |[0m 15:57:36.181 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.4:5555
+[33medge_1          |[0m 15:57:36.282 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[35mselenium-hub_1  |[0m 15:57:37.735 INFO [LocalDistributor.add] - Added node da9f4caf-bca3-4642-8230-8ff68af711b5 at http://172.31.0.3:5555.
+[35mselenium-hub_1  |[0m 15:57:38.866 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[35mselenium-hub_1  |[0m 15:57:38.874 INFO [LocalDistributor.add] - Added node 1ebad62b-9199-491b-a506-55b6363a5b89 at http://172.31.0.5:5555.
+[32mfirefox_1       |[0m 15:57:38.894 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:57:40.022 INFO [Node.<init>] - Binding additional locator mechanisms: id, name
+[35mselenium-hub_1  |[0m 15:57:40.042 INFO [LocalDistributor.add] - Added node 9fb7eeee-1db5-4eed-9a25-c76aae965a0d at http://172.31.0.4:5555.
+[36mchrome_1        |[0m 15:57:40.044 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:57:41.427 INFO [LocalGridModel.setAvailability] - Switching node da9f4caf-bca3-4642-8230-8ff68af711b5 (uri: http://172.31.0.3:5555) from DOWN to UP
+[33medge_1          |[0m 15:57:41.479 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:57:41.597 INFO [LocalGridModel.setAvailability] - Switching node 1ebad62b-9199-491b-a506-55b6363a5b89 (uri: http://172.31.0.5:5555) from DOWN to UP
+[35mselenium-hub_1  |[0m 15:57:41.716 INFO [LocalGridModel.setAvailability] - Switching node 9fb7eeee-1db5-4eed-9a25-c76aae965a0d (uri: http://172.31.0.4:5555) from DOWN to UP
+[34mfirefox_3       |[0m 2021-06-21 15:57:49,614 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[34mfirefox_3       |[0m 2021-06-21 15:57:49,649 INFO supervisord started with pid 9
+[34mfirefox_3       |[0m 2021-06-21 15:57:51,033 INFO spawned: 'xvfb' with pid 11
+[34mfirefox_3       |[0m 2021-06-21 15:57:51,061 INFO spawned: 'vnc' with pid 12
+[34mfirefox_3       |[0m 2021-06-21 15:57:51,088 INFO spawned: 'novnc' with pid 13
+[34mfirefox_3       |[0m 2021-06-21 15:57:51,118 INFO spawned: 'selenium-node' with pid 14
+[34mfirefox_3       |[0m 2021-06-21 15:57:52,234 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_3       |[0m 2021-06-21 15:57:52,235 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_3       |[0m 2021-06-21 15:57:52,236 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_3       |[0m 2021-06-21 15:57:52,237 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:52,273 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:52,283 INFO supervisord started with pid 9
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:52,882 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:52,913 INFO supervisord started with pid 9
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:53,478 INFO spawned: 'xvfb' with pid 11
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:53,494 INFO spawned: 'vnc' with pid 12
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:53,514 INFO spawned: 'novnc' with pid 13
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:53,525 INFO spawned: 'selenium-node' with pid 14
+[34mfirefox_3       |[0m Configuring server...
+[34mfirefox_3       |[0m Setting up SE_NODE_HOST...
+[34mfirefox_3       |[0m Setting up SE_NODE_PORT...
+[34mfirefox_3       |[0m Setting up SE_NODE_GRID_URL...
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:54,081 INFO spawned: 'xvfb' with pid 11
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:54,100 INFO spawned: 'vnc' with pid 12
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:54,149 INFO spawned: 'novnc' with pid 13
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:54,155 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:54,201 INFO supervisord started with pid 8
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:54,311 INFO spawned: 'selenium-node' with pid 20
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:54,399 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:54,400 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:54,402 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32;1mfirefox_4       |[0m 2021-06-21 15:57:54,446 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:54,979 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:55,096 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:55,096 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_5       |[0m 2021-06-21 15:57:55,097 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,224 INFO spawned: 'xvfb' with pid 10
+[34mfirefox_3       |[0m Selenium Grid Node configuration: 
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,313 INFO spawned: 'vnc' with pid 11
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,333 INFO spawned: 'novnc' with pid 12
+[34mfirefox_3       |[0m [events]
+[34mfirefox_3       |[0m publish = "tcp://selenium-hub:4442"
+[34mfirefox_3       |[0m subscribe = "tcp://selenium-hub:4443"
+[34mfirefox_3       |[0m 
+[34mfirefox_3       |[0m [node]
+[34mfirefox_3       |[0m session-timeout = "300"
+[34mfirefox_3       |[0m override-max-sessions = false
+[34mfirefox_3       |[0m detect-drivers = false
+[34mfirefox_3       |[0m max-sessions = 1
+[34mfirefox_3       |[0m 
+[34mfirefox_3       |[0m [[node.driver-configuration]]
+[34mfirefox_3       |[0m name = "firefox"
+[34mfirefox_3       |[0m stereotype = '{"browserName": "firefox", "browserVersion": "89.0", "platformName": "Linux"}'
+[34mfirefox_3       |[0m max-sessions = 1
+[34mfirefox_3       |[0m 
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,412 INFO spawned: 'selenium-node' with pid 13
+[34mfirefox_3       |[0m Starting Selenium Grid Node...
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,732 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,733 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,734 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mfirefox_2       |[0m 2021-06-21 15:57:55,735 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32;1mfirefox_4       |[0m Configuring server...
+[32;1mfirefox_4       |[0m Setting up SE_NODE_HOST...
+[32;1mfirefox_4       |[0m Setting up SE_NODE_PORT...
+[32;1mfirefox_4       |[0m Setting up SE_NODE_GRID_URL...
+[36;1mfirefox_5       |[0m Configuring server...
+[36;1mfirefox_5       |[0m Setting up SE_NODE_HOST...
+[36;1mfirefox_5       |[0m Setting up SE_NODE_PORT...
+[36;1mfirefox_5       |[0m Setting up SE_NODE_GRID_URL...
+[32;1mfirefox_4       |[0m Selenium Grid Node configuration: 
+[32;1mfirefox_4       |[0m [events]
+[32;1mfirefox_4       |[0m publish = "tcp://selenium-hub:4442"
+[32;1mfirefox_4       |[0m subscribe = "tcp://selenium-hub:4443"
+[32;1mfirefox_4       |[0m 
+[32;1mfirefox_4       |[0m [node]
+[32;1mfirefox_4       |[0m session-timeout = "300"
+[32;1mfirefox_4       |[0m override-max-sessions = false
+[32;1mfirefox_4       |[0m detect-drivers = false
+[32;1mfirefox_4       |[0m max-sessions = 1
+[32;1mfirefox_4       |[0m 
+[32;1mfirefox_4       |[0m [[node.driver-configuration]]
+[32;1mfirefox_4       |[0m name = "firefox"
+[32;1mfirefox_4       |[0m stereotype = '{"browserName": "firefox", "browserVersion": "89.0", "platformName": "Linux"}'
+[32;1mfirefox_4       |[0m max-sessions = 1
+[32;1mfirefox_4       |[0m 
+[32;1mfirefox_4       |[0m Starting Selenium Grid Node...
+[33;1mfirefox_2       |[0m Configuring server...
+[33;1mfirefox_2       |[0m Setting up SE_NODE_HOST...
+[33;1mfirefox_2       |[0m Setting up SE_NODE_PORT...
+[33;1mfirefox_2       |[0m Setting up SE_NODE_GRID_URL...
+[36;1mfirefox_5       |[0m Selenium Grid Node configuration: 
+[36;1mfirefox_5       |[0m [events]
+[36;1mfirefox_5       |[0m publish = "tcp://selenium-hub:4442"
+[36;1mfirefox_5       |[0m subscribe = "tcp://selenium-hub:4443"
+[36;1mfirefox_5       |[0m 
+[36;1mfirefox_5       |[0m [node]
+[36;1mfirefox_5       |[0m session-timeout = "300"
+[36;1mfirefox_5       |[0m override-max-sessions = false
+[36;1mfirefox_5       |[0m detect-drivers = false
+[36;1mfirefox_5       |[0m max-sessions = 1
+[36;1mfirefox_5       |[0m 
+[36;1mfirefox_5       |[0m [[node.driver-configuration]]
+[36;1mfirefox_5       |[0m name = "firefox"
+[36;1mfirefox_5       |[0m stereotype = '{"browserName": "firefox", "browserVersion": "89.0", "platformName": "Linux"}'
+[36;1mfirefox_5       |[0m max-sessions = 1
+[36;1mfirefox_5       |[0m 
+[36;1mfirefox_5       |[0m Starting Selenium Grid Node...
+[33;1mfirefox_2       |[0m Selenium Grid Node configuration: 
+[33;1mfirefox_2       |[0m [events]
+[33;1mfirefox_2       |[0m publish = "tcp://selenium-hub:4442"
+[33;1mfirefox_2       |[0m subscribe = "tcp://selenium-hub:4443"
+[33;1mfirefox_2       |[0m 
+[33;1mfirefox_2       |[0m [node]
+[33;1mfirefox_2       |[0m session-timeout = "300"
+[33;1mfirefox_2       |[0m override-max-sessions = false
+[33;1mfirefox_2       |[0m detect-drivers = false
+[33;1mfirefox_2       |[0m max-sessions = 1
+[33;1mfirefox_2       |[0m 
+[33;1mfirefox_2       |[0m [[node.driver-configuration]]
+[33;1mfirefox_2       |[0m name = "firefox"
+[33;1mfirefox_2       |[0m stereotype = '{"browserName": "firefox", "browserVersion": "89.0", "platformName": "Linux"}'
+[33;1mfirefox_2       |[0m max-sessions = 1
+[33;1mfirefox_2       |[0m 
+[33;1mfirefox_2       |[0m Starting Selenium Grid Node...
+[35mselenium-hub_1  |[0m 15:57:58.755 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+[35mselenium-hub_1  |[0m  [Capabilities {acceptInsecureCerts: true, browserName: firefox, platform: ANY, version: }, Capabilities {acceptInsecureCerts: true, browserName: firefox}]
+[32mfirefox_1       |[0m 1624291080553	geckodriver	INFO	Listening on 127.0.0.1:17294
+[34mfirefox_3       |[0m 15:58:03.302 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[34mfirefox_3       |[0m 15:58:03.371 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[36;1mfirefox_5       |[0m 15:58:04.513 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[36;1mfirefox_5       |[0m 15:58:04.549 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[32;1mfirefox_4       |[0m 15:58:04.579 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[32;1mfirefox_4       |[0m 15:58:04.673 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[33;1mfirefox_2       |[0m 15:58:04.831 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[33;1mfirefox_2       |[0m 15:58:04.953 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[34mfirefox_3       |[0m 15:58:05.225 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36;1mfirefox_5       |[0m 15:58:06.138 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[34mfirefox_3       |[0m 15:58:06.417 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32;1mfirefox_4       |[0m 15:58:06.555 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[32mfirefox_1       |[0m 1624291086583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileej86et"
+[33;1mfirefox_2       |[0m 15:58:07.074 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36;1mfirefox_5       |[0m 15:58:07.155 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32;1mfirefox_4       |[0m 15:58:07.425 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[34mfirefox_3       |[0m 15:58:07.481 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[33;1mfirefox_2       |[0m 15:58:07.908 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36;1mfirefox_5       |[0m 15:58:08.210 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[32;1mfirefox_4       |[0m 15:58:08.503 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[33;1mfirefox_2       |[0m 15:58:08.913 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[34mfirefox_3       |[0m 15:58:08.917 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.6:5555
+[34mfirefox_3       |[0m 15:58:09.176 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[34mfirefox_3       |[0m 15:58:09.892 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "89.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[32mfirefox_1       |[0m [GFX1-]: glxtest: libpci missing
+[32mfirefox_1       |[0m [GFX1-]: glxtest: libEGL missing
+[32mfirefox_1       |[0m [GFX1-]: glxtest: libEGL missing
+[34mfirefox_3       |[0m 15:58:10.033 INFO [Node.<init>] - Binding additional locator mechanisms: id, name
+[32mfirefox_1       |[0m 1624291090185	Marionette	INFO	Marionette enabled
+[36;1mfirefox_5       |[0m 15:58:10.238 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.8:5555
+[32;1mfirefox_4       |[0m 15:58:10.246 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.7:5555
+[32;1mfirefox_4       |[0m 15:58:10.497 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[36;1mfirefox_5       |[0m 15:58:10.591 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[33;1mfirefox_2       |[0m 15:58:10.904 INFO [NodeServer.createHandlers] - Reporting self as: http://172.31.0.9:5555
+[32;1mfirefox_4       |[0m 15:58:11.012 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "89.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[32;1mfirefox_4       |[0m 15:58:11.084 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[36;1mfirefox_5       |[0m 15:58:11.179 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "89.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[33;1mfirefox_2       |[0m 15:58:11.139 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[36;1mfirefox_5       |[0m 15:58:11.312 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[33;1mfirefox_2       |[0m 15:58:11.982 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "89.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[33;1mfirefox_2       |[0m 15:58:12.105 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[34mfirefox_3       |[0m 15:58:12.851 INFO [NodeServer$1.start] - Starting registration process for node id 2c914143-23cf-4276-a76b-fadd9206edd2
+[34mfirefox_3       |[0m 15:58:12.879 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.6:5555
+[34mfirefox_3       |[0m 15:58:13.130 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[35mselenium-hub_1  |[0m 15:58:13.368 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[35mselenium-hub_1  |[0m 15:58:13.476 INFO [LocalDistributor.add] - Added node 2c914143-23cf-4276-a76b-fadd9206edd2 at http://172.31.0.6:5555.
+[32;1mfirefox_4       |[0m 15:58:13.905 INFO [NodeServer$1.start] - Starting registration process for node id e94806f0-598b-45f7-97d3-c260607c35a0
+[32;1mfirefox_4       |[0m 15:58:13.936 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.7:5555
+[36;1mfirefox_5       |[0m 15:58:14.163 INFO [NodeServer$1.start] - Starting registration process for node id a591bf58-2feb-4e93-b6b6-7ce98fdf37b2
+[36;1mfirefox_5       |[0m 15:58:14.276 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.8:5555
+[32;1mfirefox_4       |[0m 15:58:14.142 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[36;1mfirefox_5       |[0m 15:58:14.502 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[33;1mfirefox_2       |[0m 15:58:15.443 INFO [NodeServer$1.start] - Starting registration process for node id ee06d7b5-c3f4-43ff-951e-e1c48b0add83
+[33;1mfirefox_2       |[0m 15:58:15.526 INFO [NodeServer.execute] - Started Selenium node 4.0.0-rc-1 (revision 23ece4f646): http://172.31.0.9:5555
+[35mselenium-hub_1  |[0m 15:58:15.973 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[35mselenium-hub_1  |[0m 15:58:16.028 INFO [LocalDistributor.add] - Added node e94806f0-598b-45f7-97d3-c260607c35a0 at http://172.31.0.7:5555.
+[33;1mfirefox_2       |[0m 15:58:16.026 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[34mfirefox_3       |[0m 15:58:16.372 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:58:17.740 INFO [Node.<init>] - Binding additional locator mechanisms: id, name
+[35mselenium-hub_1  |[0m 15:58:17.749 INFO [LocalDistributor.add] - Added node a591bf58-2feb-4e93-b6b6-7ce98fdf37b2 at http://172.31.0.8:5555.
+[32;1mfirefox_4       |[0m 15:58:17.794 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[32mfirefox_1       |[0m console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileej86et/search.json.mozlz4", (void 0)))
+[35mselenium-hub_1  |[0m 15:58:18.967 INFO [LocalGridModel.setAvailability] - Switching node 2c914143-23cf-4276-a76b-fadd9206edd2 (uri: http://172.31.0.6:5555) from DOWN to UP
+[36;1mfirefox_5       |[0m 15:58:18.997 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:58:19.013 INFO [Node.<init>] - Binding additional locator mechanisms: name, id
+[35mselenium-hub_1  |[0m 15:58:19.058 INFO [LocalDistributor.add] - Added node ee06d7b5-c3f4-43ff-951e-e1c48b0add83 at http://172.31.0.9:5555.
+[35mselenium-hub_1  |[0m 15:58:20.230 INFO [LocalGridModel.setAvailability] - Switching node e94806f0-598b-45f7-97d3-c260607c35a0 (uri: http://172.31.0.7:5555) from DOWN to UP
+[33;1mfirefox_2       |[0m 15:58:20.248 INFO [NodeServer.lambda$createHandlers$1] - Node has been added
+[35mselenium-hub_1  |[0m 15:58:20.380 INFO [LocalGridModel.setAvailability] - Switching node a591bf58-2feb-4e93-b6b6-7ce98fdf37b2 (uri: http://172.31.0.8:5555) from DOWN to UP
+[35mselenium-hub_1  |[0m 15:58:20.435 INFO [LocalGridModel.setAvailability] - Switching node ee06d7b5-c3f4-43ff-951e-e1c48b0add83 (uri: http://172.31.0.9:5555) from DOWN to UP
+[32mfirefox_1       |[0m 1624291102611	Marionette	INFO	Listening on port 36543
+[32mfirefox_1       |[0m 1624291102758	Marionette	WARN	TLS certificate errors will be ignored for this session
+[32mfirefox_1       |[0m 15:58:22.933 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[35mselenium-hub_1  |[0m 15:58:23.073 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 7a339033-2975-43a9-a21b-06851e1097b0, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 177, moz:profile: /tmp/rust_mozprofileej86et, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: ANY, platformVersion: 5.4.72-microsoft-standard-WSL2, se:vnc: ws://172.31.0.3:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+[35mselenium-hub_1  |[0m 15:58:23.129 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+[35mselenium-hub_1  |[0m  [Capabilities {acceptInsecureCerts: true, browserName: firefox, platform: ANY, version: }, Capabilities {acceptInsecureCerts: true, browserName: firefox}]
+[36;1mfirefox_5       |[0m 1624291104039	geckodriver	INFO	Listening on 127.0.0.1:27910
+[36;1mfirefox_5       |[0m 1624291108258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMnaCcC"
+[36;1mfirefox_5       |[0m [GFX1-]: glxtest: libpci missing
+[36;1mfirefox_5       |[0m [GFX1-]: glxtest: libEGL missing
+[36;1mfirefox_5       |[0m [GFX1-]: glxtest: libEGL missing
+[36;1mfirefox_5       |[0m 1624291111538	Marionette	INFO	Marionette enabled
+[36;1mfirefox_5       |[0m console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMnaCcC/search.json.mozlz4", (void 0)))
+[36;1mfirefox_5       |[0m 1624291118498	Marionette	INFO	Listening on port 39353
+[36;1mfirefox_5       |[0m 1624291118615	Marionette	WARN	TLS certificate errors will be ignored for this session
+[36;1mfirefox_5       |[0m 15:58:38.749 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[35mselenium-hub_1  |[0m 15:58:38.862 WARN [LocalGridModel.setSession] - Grid model and reality have diverged. Slot is not reserved. SlotId{nodeId=a591bf58-2feb-4e93-b6b6-7ce98fdf37b2, id=fd4fd727-2030-4aad-946e-79566d316001}
+[35mselenium-hub_1  |[0m 15:58:38.870 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 4f678175-1d33-4af9-a2bd-ed7008563a87, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 174, moz:profile: /tmp/rust_mozprofileMnaCcC, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: ANY, platformVersion: 5.4.72-microsoft-standard-WSL2, se:vnc: ws://172.31.0.8:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+[35mselenium-hub_1  |[0m 15:58:38.881 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+[35mselenium-hub_1  |[0m  [Capabilities {acceptInsecureCerts: true, browserName: firefox, platform: ANY, version: }, Capabilities {acceptInsecureCerts: true, browserName: firefox}]
+[36;1mfirefox_5       |[0m 15:58:39.041 WARN [SeleniumSpanExporter$1.lambda$export$0] - {"traceId": "ff778febc62dc2bdabf9637943672077","eventTime": 1624291119024211000,"eventName": "Max session count reached","attributes": {"current.session.count": 1,"logger": "org.openqa.selenium.grid.node.local.LocalNode","max.session.count": 1,"session.request.capabilities": "Capabilities {acceptInsecureCerts: true, browserName: firefox, platform: ANY, version: }","session.request.downstreamdialect": "[W3C, OSS]"}}
+[36;1mfirefox_5       |[0m 
+[32;1mfirefox_4       |[0m 1624291120613	geckodriver	INFO	Listening on 127.0.0.1:6326
+[32;1mfirefox_4       |[0m 1624291124421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKrGICf"
+[32;1mfirefox_4       |[0m [GFX1-]: glxtest: libpci missing
+[32;1mfirefox_4       |[0m [GFX1-]: glxtest: libEGL missing
+[32;1mfirefox_4       |[0m [GFX1-]: glxtest: libEGL missing
+[32;1mfirefox_4       |[0m 1624291127073	Marionette	INFO	Marionette enabled
+[32;1mfirefox_4       |[0m console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKrGICf/search.json.mozlz4", (void 0)))
+[32;1mfirefox_4       |[0m 1624291132056	Marionette	INFO	Listening on port 39469
+[32;1mfirefox_4       |[0m 1624291132125	Marionette	WARN	TLS certificate errors will be ignored for this session
+[32;1mfirefox_4       |[0m 15:58:52.225 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[35mselenium-hub_1  |[0m 15:58:52.319 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 17207a29-2514-4405-8a6a-20311d180579, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 173, moz:profile: /tmp/rust_mozprofileKrGICf, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: linux, platformVersion: 5.4.72-microsoft-standard-WSL2, se:vnc: ws://172.31.0.7:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+[33medge_1          |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32;1mfirefox_4       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[34mfirefox_3       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36;1mfirefox_5       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[34mfirefox_3       |[0m 2021-06-21 15:59:05,725 WARN received SIGTERM indicating exit request
+[34mfirefox_3       |[0m 2021-06-21 15:59:05,732 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[32mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33;1mfirefox_2       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mfirefox_1       |[0m 2021-06-21 15:59:06,061 WARN received SIGTERM indicating exit request
+[32mfirefox_1       |[0m 2021-06-21 15:59:06,073 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[36mchrome_1        |[0m 2021-06-21 15:59:06,121 WARN received SIGTERM indicating exit request
+[36mchrome_1        |[0m 2021-06-21 15:59:06,133 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:06,257 WARN received SIGTERM indicating exit request
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:06,271 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:06,246 WARN received SIGTERM indicating exit request
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:06,248 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:06,419 WARN received SIGTERM indicating exit request
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:06,421 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[33medge_1          |[0m 2021-06-21 15:59:06,453 WARN received SIGTERM indicating exit request
+[33medge_1          |[0m 2021-06-21 15:59:06,472 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[34mfirefox_3       |[0m 2021-06-21 15:59:06,762 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2021-06-21 15:59:07,079 INFO stopped: selenium-node (terminated by SIGTERM)
+[36mchrome_1        |[0m 2021-06-21 15:59:07,145 INFO stopped: selenium-node (terminated by SIGTERM)
+[36mchrome_1        |[0m 2021-06-21 15:59:07,151 INFO stopped: novnc (terminated by SIGTERM)
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:07,251 INFO stopped: selenium-node (terminated by SIGTERM)
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:07,280 INFO stopped: selenium-node (terminated by SIGTERM)
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:07,423 INFO stopped: selenium-node (terminated by SIGTERM)
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:07,433 INFO stopped: novnc (terminated by SIGTERM)
+[33medge_1          |[0m 2021-06-21 15:59:07,485 INFO stopped: selenium-node (terminated by SIGTERM)
+[33medge_1          |[0m 2021-06-21 15:59:07,491 INFO stopped: novnc (terminated by SIGTERM)
+[34mfirefox_3       |[0m 2021-06-21 15:59:07,773 INFO stopped: novnc (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2021-06-21 15:59:08,082 INFO stopped: novnc (terminated by SIGTERM)
+[36mchrome_1        |[0m 2021-06-21 15:59:08,157 INFO stopped: vnc (terminated by SIGTERM)
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:08,254 INFO stopped: novnc (terminated by SIGTERM)
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:08,284 INFO stopped: novnc (terminated by SIGTERM)
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:08,435 INFO stopped: vnc (terminated by SIGTERM)
+[33medge_1          |[0m 2021-06-21 15:59:08,496 INFO stopped: vnc (terminated by SIGTERM)
+[34mfirefox_3       |[0m 2021-06-21 15:59:08,776 INFO stopped: vnc (terminated by SIGTERM)
+[34mfirefox_3       |[0m 2021-06-21 15:59:08,776 INFO waiting for xvfb to die
+[32mfirefox_1       |[0m 2021-06-21 15:59:09,085 INFO stopped: vnc (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2021-06-21 15:59:09,089 INFO waiting for xvfb to die
+[36mchrome_1        |[0m 2021-06-21 15:59:09,163 INFO stopped: xvfb (terminated by SIGTERM)
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:09,257 INFO stopped: vnc (terminated by SIGTERM)
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:09,258 INFO waiting for xvfb to die
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:09,286 INFO stopped: vnc (terminated by SIGTERM)
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:09,287 INFO waiting for xvfb to die
+[36mchrome_1        |[0m Shutdown complete
+[33;1mfirefox_2       |[0m 2021-06-21 15:59:09,438 INFO stopped: xvfb (terminated by SIGTERM)
+[33medge_1          |[0m 2021-06-21 15:59:09,505 INFO stopped: xvfb (terminated by SIGTERM)
+[33;1mfirefox_2       |[0m Shutdown complete
+[34mfirefox_3       |[0m 2021-06-21 15:59:09,858 INFO stopped: xvfb (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2021-06-21 15:59:10,090 INFO stopped: xvfb (terminated by SIGTERM)
+[33medge_1          |[0m Shutdown complete
+[32;1mfirefox_4       |[0m 2021-06-21 15:59:10,262 INFO stopped: xvfb (terminated by SIGTERM)
+[36;1mfirefox_5       |[0m 2021-06-21 15:59:10,290 INFO stopped: xvfb (terminated by SIGTERM)
+[32mfirefox_1       |[0m Shutdown complete
+[32;1mfirefox_4       |[0m Shutdown complete
+[34mfirefox_3       |[0m Shutdown complete
+[36;1mfirefox_5       |[0m Shutdown complete
+[36mdockervalidation_chrome_1 exited with code 143
+[0m[33;1mdockervalidation_firefox_2 exited with code 143
+[0m[33mdockervalidation_edge_1 exited with code 143
+[0m[34mdockervalidation_firefox_3 exited with code 143
+[0m[32mdockervalidation_firefox_1 exited with code 143
+[0m[36;1mdockervalidation_firefox_5 exited with code 143
+[0m[32;1mdockervalidation_firefox_4 exited with code 143
+[0m[35mselenium-hub_1  |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[35mselenium-hub_1  |[0m 2021-06-21 15:59:16,896 WARN received SIGTERM indicating exit request
+[35mselenium-hub_1  |[0m 2021-06-21 15:59:16,897 INFO waiting for selenium-grid-hub to die
+[35mselenium-hub_1  |[0m 2021-06-21 15:59:17,899 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+[35mselenium-hub_1  |[0m Shutdown complete
+[35mdockervalidation_selenium-hub_1 exited with code 143
+[0m
