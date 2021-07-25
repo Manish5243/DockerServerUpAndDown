@@ -33,7 +33,7 @@ public class startDocker {
 			
 			while(currentLine!= null && !flag) {
 			
-			if(currentLine.contains("Node has been added")) {
+			if(currentLine.contains("The node is registered to the hub and ready to use")) {
 				System.out.println("found txt");
 				flag = true;
 				break;
