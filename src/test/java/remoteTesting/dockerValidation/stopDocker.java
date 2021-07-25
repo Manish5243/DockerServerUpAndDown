@@ -35,7 +35,7 @@ public class stopDocker {
 			
 			while(currentLine!= null && !flag) {
 			
-			if(currentLine.contains("selenium-hub_1 exited")) {
+			if(currentLine.contains("Shutdown complete")) {
 				System.out.println("found txt to delete");
 				flag = true;
 				break;
