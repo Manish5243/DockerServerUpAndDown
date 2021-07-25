@@ -39,6 +39,7 @@ public class startDocker {
 				break;
 			}
 			currentLine = reader.readLine();
+				system.out.println(reader.readLine());
 		}
 			reader.close();
 		}
