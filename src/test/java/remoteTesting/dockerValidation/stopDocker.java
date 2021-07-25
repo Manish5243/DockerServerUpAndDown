@@ -20,7 +20,7 @@ public class stopDocker {
 		String file = "output.txt";
 		
 		Calendar cal = Calendar.getInstance();
-		cal.add(Calendar.SECOND, 45);
+		cal.add(Calendar.SECOND, 60);
 		long stopnow = cal.getTimeInMillis();
 		Thread.sleep(3000);
 		
